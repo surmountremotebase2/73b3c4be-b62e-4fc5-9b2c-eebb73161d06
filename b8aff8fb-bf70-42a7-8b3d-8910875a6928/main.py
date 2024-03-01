@@ -15,7 +15,7 @@ class TradingStrategy(Strategy):
     def interval(self):
         # Define the interval for which the strategy will be applied. 
         # This is not used in this simple allocation but required by the framework.
-        return "1day"
+        return "30day"
 
     def run(self, data):
         # Define an equal allocation dictionary for Apple and Microsoft
